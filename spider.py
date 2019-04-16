@@ -7,7 +7,7 @@ from pyspider.libs.base_handler import *
 import json
 import copy
 class Handler(BaseHandler):
-    base_url="https://172.16.39.94/fofa/"
+    base_url=""
     crawl_config = {
         'headers': {
             'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4843.400 QQBrowser/9.7.13021.400',
@@ -20,8 +20,7 @@ class Handler(BaseHandler):
             "DNT": "1",
             "Connection": "keep-alive"
         },
-        'cookies':{ "_fofa_EE_session":"Qyt5UFZIY0VxRGVKRmxOZ1IvcE05QmlKUDlSV2F3blJBTFJ6Y2R4WWJZU25DQnJmNVpiUFUyMmtVUlBJSHdyUnFkZUxYc3RmUzBZUm5vQ0I0blJ1enVJUkZWak9CM2pmQW0vV1drd2FISjRRL3ZiVUtvQ25wK3d6bUhQd0ZhUlpOTGsyaVd3TzljUXlYa0loMzBCUVZ0dGZmemZUSEdqWFpUQk5LVHZ2ZndSekJ6TVBsbEFkR1UyTEg5MFFvay9uWjh0Uk1IREhLVytWNzRTbkYyTEZMeFl6SGZ5QXlZNkI2eGRUWE5JNWNqc0p1MjRXMFFwM1VPL3F5Q0tSY2tlWDVLM3FBbHBOUHFONjJIMExqTFJFK2hMTFQwQVJHU0tKQXkxRjhnMWNsbzZZbFkrTnlLS2hGWkwzV3pONFRGNkREZmRGdGFkdUlPbzZvTkhESnNUOEtWV29BTEFPSitqd011VURRSlExT3ZvOG4zWnlDQWNBVWF3bmpVcTNjVkUrcG8xNUwxd0pUaEJUYi9RM0M5ZnVtcTJocGhOekFIMlpXYndrcno5M2dTRnpFZ0Nzc1RSVmVoL2t5cTNWZ2lWUGJjL2JNd3loL1BVQVUrb0lBQ0o3c0hYM3JpallPRkZHWklQVnFoWjNaSk5VM2tHdS9kOEhXY0FRWGpsWnBkNnQtLXJqM2drb1ZqOU4xTGIyNTQvQldUNWc9PQ%3D%3D--c533f8f99b2d2b7d71d46e761fa617e977edb61e",
-        "path":"/; HttpOnly"}
+        'cookies':{ }
      }
 
 
